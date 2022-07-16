@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "Surface Du AT&T to Global"
+echo "Surface Duo AT&T to Global"
 echo "by Filiph Sandström"
 
 chmod 777 /dev/block/by-name/*
