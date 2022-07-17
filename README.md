@@ -1,6 +1,6 @@
-# Convert AT&T Surface Duo into the global variant
+## Convert AT&T Surface Duo into the global variant
 
-## Prerequisites
+# Prerequisites
 
 - Your AT&T Surface Duo recovery image (https://support.microsoft.com/en-us/surface/recover-surface-duo-if-it-won-t-start-1e6fb3cf-4e24-92a8-bc05-4984274bc6a4#ID0EDD=Surface_Duo). 
 - A global Surface Duo recovery image (https://forum.xda-developers.com/t/android-11-ota-link-zip-file-img-files-unlocked.4393341/).
@@ -8,7 +8,7 @@
 - Unlocked bootloader (including critical).
 - 'USB Debugging' enabled.
 
-## WARNING
+# WARNING
 
 Only continue with this process if your battery is charged and you're using a reliable USB cable without quirks. Your device could die during the process potentially leaving you with a brick, or a faulty cable could result in data corruption.
 
@@ -20,7 +20,7 @@ It is totally likely this method stops working in the future, specifically with 
 
 __I am not responsible for bricked devices, devices without working SIM cards or eSIM, devices that don't work in any specific way, or devices that gain a mind of their own and seek out world domination. You have been warned.__
 
-## Steps
+# Steps
 
 1. Extract 'payload.bin' from the global Surface Duo recovery image.
 2. Use payload_dumper from the rooting guide to extract the partition images.
