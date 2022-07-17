@@ -10,9 +10,15 @@
 
 ## WARNING
 
-While this has been tested on my personal device, I cannot confirm that it will work for yours. SIM card support might be broken (though it worked on my Swedish network). **I am not responsible for any damage that might occur to your device.**
+Only continue with this process if your battery is charged and you're using a reliable USB cable without quirks. Your device could die during the process potentially leaving you with a brick, or a faulty cable could result in data corruption.
 
-Banking and similar (SafetyNet) apps should still work but might require you to re-lock the bootloader afterwards since we'll just be running stock firmware.
+Apps that rely on SafetyNet (some banking apps, some media apps, etc.) will not work unless you relock your bootloader after this process completes. Alternatively, you can root the device again and install kdrag0n's SafetyNet fix (https://github.com/kdrag0n/safetynet-fix).
+
+While this process has worked on other devices, it might not on yours for various reasons that I take no responsibility for.
+
+It is totally likely this method stops working in the future, specifically with the release of Android 12L. Partition images that need to be written may change.
+
+__I am not responsible for bricked devices, devices without working SIM cards or eSIM, devices that don't work in any specific way, or devices that gain a mind of their own and seek out world domination. You have been warned.__
 
 ## Steps
 
